@@ -128,13 +128,13 @@ class Main{
 		FixedDeposit f1=new FixedDeposit(4,525832,"Prince Maurya FD",0.04,6534);
 		f1.openAccount();	
 		f1.updateInterest();
-        f1.tenureBalance();
-        f1.closeAccount();
+                f1.tenureBalance();
+                f1.closeAccount();
 		FixedDeposit f2=new FixedDeposit(7,525832,"Prince Maurya FD2",0.04,6534);
 		f2.openAccount();
-        f2.updateInterest();
-        f2.tenureBalance();
-        f2.closeAccount();
+	        f2.updateInterest();
+	        f2.tenureBalance();
+	        f2.closeAccount();
 		f2.deposit(5000);
 		
 	}
